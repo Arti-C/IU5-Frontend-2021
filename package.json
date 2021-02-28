@@ -1,7 +1,7 @@
 {
-  "name": "y",
+  "name": "lab1",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://docs.google.com/spreadsheets/d/1tI8__eRI9CBqyhxoyPkDUAurpd6_ZULPNyoh3VOmoTg/edit?usp=sharing",
   "main": "index.html",
   "dependencies": {
     "express": "^4.17.1"
@@ -12,5 +12,16 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arti-C/IU5-Frontend-2021.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arti-C/IU5-Frontend-2021/issues"
+  },
+  "homepage": "https://github.com/Arti-C/IU5-Frontend-2021#readme"
 }
