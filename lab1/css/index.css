@@ -42,8 +42,8 @@ a:visited {
     border: 5px solid maroon;
     width: 25%;
     height: 25%;
-    max-height: 10em;
     /*Ограничение по высоте, аналогично можно ограничить и по ширине*/
+    max-height: 10em;
 }
 
 p {
