@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: rgb(162, 173, 255);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-style: normal;
+    font-size: 10pt;
+    width: 50em;
+}
+
+th {
+    background: #ccc;
+    text-align: left;
+}
+
+td,
+th {
+    border: 1px solid #800;
+    padding: 4px;
+}
+
+a:link {
+    color: olive;
+}
+
+a:visited {
+    color: #001190;
+}
+
+#A {
+    color: rgb(84, 8, 8);
+    font-weight: bold;
+}
+
+#B {
+    padding: 10px;
+    background: rgb(209, 44, 44);
+    border: 5px solid maroon;
+    width: 25%;
+    height: 25%;
+    /*Ограничение по высоте, аналогично можно ограничить и по ширине*/
+    max-height: 10em;
+}
+
+p {
+    text-align: justify;
+    font-weight: 300;
+}
+
+p::selection {
+    color: #ff0;
+    /* Цвет текста */
+    background: #000;
+    /* Цвет фона */
+}
+
+.letter {
+    color: rgb(126, 0, 101);
+    font-size: 200%;
+    font-family: serif;
+    position: relative;
+    bottom: 0px;
+}
+
+img {
+    width: 45%;
+    height: 45%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
